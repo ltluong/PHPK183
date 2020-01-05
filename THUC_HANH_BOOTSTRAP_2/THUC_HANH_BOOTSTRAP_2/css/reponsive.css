@@ -1,0 +1,43 @@
+/* reponsive col-md */
+@media only screen and (max-width:992px)
+{
+    .text-menu{
+        display: block;
+    }
+    #slide{
+        display: none;
+    }
+    #slide,#banner{
+        display: none;
+    }
+    #logo{
+        text-align: center;
+        padding-bottom: 10px;
+
+    }
+    #search input{
+        width: 80%;
+
+    }
+    #search button{
+        width: 20%;
+    }
+}
+/* reponsive col-sm */
+@media only screen and (max-width:992px)
+{
+
+    .info{
+        margin-bottom: 30px;
+    }
+    #sup-cart{
+        /* danh cho tọa độ */
+        position: absolute;
+        right: 16px;
+        top:-74px;
+        
+    }
+    #logo{
+        text-align: left;
+    }
+}

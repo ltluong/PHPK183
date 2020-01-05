@@ -1,0 +1,56 @@
+/* # chọn :id */
+    /* .chọn class */
+    #li1{
+        color: green;
+        font-size: 30px;
+    }
+.mau_do{
+    color: red;
+
+}
+
+.size-30
+{
+font-size: 30px;
+}
+
+
+.box1
+    {
+
+    /* chieu cao của thẻ */
+    height: 443px;
+    /* chieu rong cua the */
+    width: 443px;
+    /* to màu nền */
+    background-color: indigo;
+    /* ảnh nền */
+    background-image: url("http://thuthuat123.com/uploads/2018/01/27/Avatar-dep-nhat-83_112148.jpg");
+    }
+
+.box2
+{
+    height: 100px;
+    width: 100px;  
+    color: lawngreen;
+    background-color: blueviolet;
+    /* Top: cạnh trên
+    right:canh phải
+    bottom: cạnh dưới
+    left: canh trai */
+    padding-top: 10px;
+    padding-left: 10px;
+    border-top: 10px solid;
+
+/*     tao khoang cach cac phan tu : margin */
+    margin-bottom: 10px;
+
+}
+
+.box3
+{
+    height: 100px;
+    width: 100px;  
+    background-color: lightcoral;
+    color: lightcyan;
+}

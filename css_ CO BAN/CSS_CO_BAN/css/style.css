@@ -1,0 +1,119 @@
+ /* 
+        chọn_thẻ
+        {
+            thuộc_tính_1:giá_trị_1; 
+            thuộc_tính_2:giá_trị_2;
+            .
+            .
+            vv
+        }
+        
+         */
+
+/* 
+css cho tất cả thẻ div
+div{
+    color: yellow;
+    font-size: 50px;
+} */
+
+/* thăng (#) dành cho id */
+/* Chấm (.) dành cho class */
+
+
+/* 
+chọn thẻ có id="vietpro-3"
+#vietpro-3
+{
+    color: red;
+}
+
+
+chọn thẻ có class="mau-cam"
+.mau-cam{
+    color: orange;
+}
+
+chọn thẻ có class="size-10"
+.size-10{
+    font-size: 10px;
+}
+
+chọn thẻ có class="size-50"
+.size-50{
+    font-size: 50px;
+} 
+
+*/
+
+/* chọn thẻ có id="vietpro" */
+#vietpro{
+    /* chiều ngang của thẻ */
+    width:400px;
+
+    /* chiều cao của thẻ */
+    height: 400px;
+
+    /* màu nền */
+    background-color: #202325;
+
+    /* ảnh nền */
+    background-image: url("http://thuthuatphanmem.vn/uploads/2018/06/18/anh-avatar-dep-42_034122099.jpg");
+
+    /* lặp ảnh */
+    background-repeat: no-repeat;
+
+
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+
+
+    /* 
+   tất cả những thuộc tính trong box-model đều có  vị trí
+    top: trên 
+    bottom: dưới
+    left : trái
+    right: phải
+    
+    */
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    background-color: orangered;
+
+    
+    border: 10px solid blue;
+    margin-bottom: 50px;
+
+    /*  center : giữa 
+        left : trái
+        right: phải
+    */
+    text-align: center;
+
+
+    /* căn giữa nội dung ta cho lineheight= height */
+    line-height: 100px;
+
+    /* cỡ chữ  */
+    font-size: 30px;
+
+    /* độ đậm chữ  */
+    /* cho chữ đậm */
+    font-weight: bold;
+}
+
+.box2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-top: 10px solid blue;
+}

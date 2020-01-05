@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* troi ben trai */
+    /* float: left; */
+}
+.box1
+{
+    background-color: blue;
+    width: 100px;
+    height:100px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+
+}
+.box1 span{
+    display: none;
+}
+
+.box1:hover span{
+
+    display: block;
+}
+.box2{
+    background-color:red;
+    width: 200px;
+    height:200px;
+    float: left; 
+}
+
+.list-box
+{
+    background-color: green;
+}
+
+.clear-both
+{
+    clear: both;
+}
+
+audio{
+    width: 45%;
+    height: 30px;
+
+}
+
+video{
+
+    width: 50%;
+}
+
